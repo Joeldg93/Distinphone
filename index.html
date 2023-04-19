@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>Landing Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
+    <script src="formulario.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <header id="presentacion-organizacion">
+    <!-- Sección de Presentación de la Organización -->
+  
+    <!-- Contenido de la sección de Presentación de la Organización -->
+    
+    <h1>DistinPhone</h1>
+    <img src="LOGO.png" style= "float:right;" width="200" height="200"  alt="LOGO">
+      <p style= "font-size: 20px">
+        Somos una sociedad en crecimiento que trae productos directos del exterior. Nuestro objetivo es traer productos de tecnologia del exterior que aca en nuestro pais se venden a muy alto precio, manteniendolo a precio del mercado mundial. Ofreciendo la posibilidad de comprar en cuotas.
+    </p>
+    
+    </header>
+    </body>
+    
+    
+    <!-- Sección de Presentación Personal -->
+  <section id="presentacion-personal">
+    
+    <!-- Contenido de la sección de Presentación Personal -->
+    <br>
+    <br>
+    <h2 style="float:left ">Conoce a nuestro equipo</h2>
+    <br>
+    <br>
+    <p style= "font-size: 20px">Nuestra sociedad esta conformada por Joel encargado de una empresa de ventas de tecnologia en Miami con mas de 100 personas a cargo. Y en Palermo, Bs.As por Franco licenciado en tecnologia informatica. Tenemos una amistad de hace varios años y creamos esta sociedad para poder traer a nuestro pais la oportunidad de tener lo ultimo en tecnologia y puedan aprovechar al maximo todo lo que ofrece en la tecnologia en estos tiempos.
+    </p>
+    <img src="imagen-equipo1.png" width="150" height="150" alt="Imagen del equipo1">
+    <p>Joel</p>
+    <img src="imagen-equipo2.png"  width="150" height="150" alt="Imagen del equipo2">
+    <p>Franco</p>
+    
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section class="contenido">
+    <h2>OFERTAS</h2>
+    <div class="producto">
+      <img src="producto1.png" width="200" height="320"alt="Producto 1">
+      <h3>Smartwach 7 Apple 500USD$</h3>
+      <p style= "font-size: 20px">
+        El Apple Watch Series 7 tiene la pantalla Retina siempre activa más grande y avanzada hasta ahora. Todo se ve increíble y es más fácil de usar. También es el más resistente a golpes gracias a su nuevo cristal frontal. Sus funcionalidades avanzadas te permiten medir tu nivel de oxígeno en la sangre, monitorear tus horas de sueño y practicar la conciencia plena. Y tiene un montón de entrenamientos para mantenerte en movimiento, incluyendo Tai Chi y Pilates.
+      </p>
+      <a href="#formularioProceso">Pedir cotizacion en pesos</a>
+    </div>
+    <div class="producto">
+      <img src="producto2.png"  width="200" height="320" alt="Producto 2">
+      <h3>Iphone 13 Pro Max 1000USD$</h3>
+      <p style= "font-size: 20px">
+        iPhone 13 Pro Max. El mayor avance en el sistema de cámaras Pro hasta ahora. Pantalla Super Retina XDR con ProMotion que brinda una respuesta más rápida y fluida. Chip A15 Bionic para un rendimiento fuera de serie. Diseño resistente y la mayor duración de batería jamás vista en un iPhone.
+      </p>
+      <a href="#formularioProceso">Pedir cotizacion en pesos</a>
+    </div>
+    <div class="producto">
+      <img src="producto3.png"  width="200" height="320" alt="Producto 3">
+      <h3>Iphone 14 1100USD$</h3>
+      <p style= "font-size: 20px">
+        El iPhone 14 viene con el sistema de dos cámaras más impresionante en un iPhone, para que tomes fotos espectaculares con mucha o poca luz. Y te da más tranquilidad gracias a una funcionalidad de seguridad que salva vidas.
+      </p>
+      <a href="#formularioProceso">Pedir cotizacion en pesos!</a>
+    </div>
+    <div class="producto">
+        <img src="producto4.png"  width="200" height="320" alt="Producto 4">
+        <h3>Mackbook Pro 5 300USD$</h3>
+        <p style= "font-size: 20px">
+            MacBook Pro (13 pulgadas, 2020, Chip M1, 512 GB de SSD, 12 GB de RAM)
+        </p>
+        <a href="#formularioProceso">Pedir cotizacion en pesos!</a>
+      </div>
+  </section>
+  <!-- Sección de Formulario de Contacto -->
+
+<br>
+<br>
+    <section>
+        <!-- Contenido del formulario de contacto -->
+        <h2>Ponete en contacto con nosotros</h2>
+        <form id="formularioContacto" style= "font-size: 20px">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <input type="submit" value="Enviar">            
+        </form>
+    </section>
+    
+    <!-- Sección de Formulario de Cotización -->
+    <section>
+
+
+        
+      <br>
+      <br><!-- Contenido del formulario de cotización -->
+        <h2>Pedi tu cotizacion</h2>
+        <form id="formularioProceso" method="post" style= "font-size: 20px">
+            <label for="nombreProceso">Nombre</label>
+            <input type="text" id="nombreProceso" name="nombreProceso">
+            <label for="nombreproducto">Nombre del producto</label>
+            <input type="text" id="nombreproducto" name="nombreproducto">
+            <!-- Agregar otros campos del formulario aquí, por ejemplo, campo de precio y cantidad para la cotización -->
+            <label for="precio">Precio en dolar</label>
+            <input type="number" id="precio" name="precio">
+            <label for="cantidad">Cantidad</label>
+            <input type="number" id="cantidad" name="cantidad">
+            <button type="submit">Consultar</button>
+        </form>
+    </section>
+
+    
+</body>
+</html>

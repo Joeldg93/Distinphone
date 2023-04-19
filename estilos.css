@@ -1,0 +1,74 @@
+/* Reset de estilos para normalizar el diseño en diferentes navegadores */
+body, html, h1, h2, h3, p, a, input, form, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 30px;
+    text-shadow:0px 0px 9px#508AD3;
+    text-align: center;
+}
+
+
+/* Estilo para el encabezado de la página */
+header {
+    background: linear-gradient(to right, black,rgb(28, 33, 102));
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilo para el título de la página */
+h1 {
+    font-size: 25px;
+    text-shadow:0px 0px 9px#508AD3;
+}
+
+/* Estilo para el contenido principal */
+.container {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+h2 {
+    background: linear-gradient(to right, black,rgb(28, 33, 102));
+    color: #fff;
+    padding: 10px;
+
+
+}
+
+/* Estilo para las secciones de la página */
+.section {
+
+    margin-bottom: 25px;
+}
+
+/* Estilo para los formularios */
+form {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para los campos de entrada de texto */
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+    padding: 8px;
+    margin-bottom: 7px;
+    border: 2px solid rgb(17, 1, 1);
+}
+
+/* Estilo para los botones */
+button {
+    padding: 8px;
+    background: linear-gradient(to right, black,rgb(102, 28, 28));
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilo para los mensajes de error en los formularios */
+.error {
+    color: #ff0000;
+    margin-top: 5px;
+}
